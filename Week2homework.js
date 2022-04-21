@@ -1,9 +1,10 @@
 let pizzaPlace = "PizzaPie";
-let numberOfToppings = ("8 toppings" || 8);
+let numberOfToppings = (8);
+console.log(pizzaPlace , numberOfToppings);
 console.log(typeof pizzaPlace);
 console.log(typeof numberOfToppings);
-console.log("Here at " + pizzaPlace + " we have " + numberOfToppings + "!");
-if (numberOfToppings <10) {
+console.log(`Here at ${pizzaPlace} we have ${numberOfToppings} toppings!`);
+if (numberOfToppings < 10) {
   console.log("Quality not quantity");
 }else{
   console.log("A whole lot of pizza.");
