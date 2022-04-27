@@ -23,32 +23,27 @@ function getPizzaOrder(size, crust, ...toppings) {
 };
 getPizzaOrder(`Large`, `Regular`, `Pepperoni`, `Bacon`, `Onions`, `Peppers`);
 //
-function preparePizza([size, crust, ...toppings]) {
-
-        let prep = (`Cooking pizza! Your ${size} ${crust} crust pizza with `)
-        for (let topping of toppings) {
-            prep += ` ${topping}`
-        }
-        console.log (prep+" is in the oven!")
-        return [size, crust, toppings];
-        const cooking = {
-            size: Large,
-            crust: Regular,
-            toppers: [
-                Pepperoni,
-                Bacon,
-                Onions,
-                Peppers,
-            ]
-            };
-            console.log(cooking.size);
+function preparePizza([size, crust, toppings]) {
+console.log ("Your Pizza is in the oven!")
+    return {
+    size: size,
+    crust: crust,
+    toppings: toppings
+    };
 };
-    
+preparePizza();
 
-preparePizza([`Large`, `Regular`, `Pepperoni`, `Bacon`, `Onions`, `Peppers`])
+function servePizza(pizza) {{
+    pizza.size;
+    pizza.crust;
+    pizza.toppings;
+    return pizza;
+}
+    let order = `Order up! Here's your ${size} ${crust} crust pizza with `;
 
+    for (let topping of toppings) {
+        order += ` ${topping}`
+    }
 
-
-// function servePizza () {
-//     console.log(`Order up! Here's your large thin-crust pizza with ` )
-// };
+    console.log(order+"!")
+};
