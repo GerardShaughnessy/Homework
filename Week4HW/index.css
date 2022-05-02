@@ -4,10 +4,23 @@
     color: #ffffff;
     font-size: 1.7em;
     font-weight: 700;
+    border: 1em;
+    /* border-color: red; */
+    border-style: solid;
+}
+body {
+    margin: 1cm;
+}
 
 
 
+h4 > li {
+    font-size: smaller;
+}
 
+#helpfulTips {
+    color: #f509e5;
+}
 
 /* 
 utilize the CSS Box Model for padding, margin, and border
