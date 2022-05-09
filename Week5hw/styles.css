@@ -41,9 +41,9 @@ html {
     width: auto;
   }
 
-  @media (max-width: 375px) {
-    #bio {
-        float: center;
-        
+  @media (max-width: 390px) {
+    body {
+      margin: 2px;
+      width: 810px;
     }
   }
